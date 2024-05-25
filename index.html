@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <header id="header" class="header-nav">
+        <nav id="navbar" class="navbar" aria-label="Main Navigation">
+          <h1>Portfolio</h1>
+          <ul>
+            <li><a class="nav-link" href="#welcome-section">Welcome</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="welcome" id="welcome-section">
+          <h1>Welcome</h1>
+          <p>Hello, I'm Davi SAS.</p>
+
+          <p>I have always been fascinated by the graphical world. I started exploring design and
+            digital art, diving
+            deep into 3D modeling software like ZBrush, Maya, Blender, and Substance Painter. My passion for visual
+            creation led me to develop solid skills in Hard Surface (Box Modeling), Organic Modeling (Sculpting),
+            Retopology, UV Mapping, Rigging, and Texturing.
+          </p>
+          <p>
+            In recent years, my curiosity and passion for software development began to grow. I gradually became
+            immersed in the development field, especially JavaScript. The flexibility and power of this language allowed
+            me to transform ideas into functional realities, from simple web pages to complex applications.
+          </p>
+          <p>
+            Working as a freelancer, I now collaborate with various developers and agencies, applying my knowledge in
+            both front-end and back-end development. My experience spans HTML, CSS, Vanilla JavaScript, React, Angular,
+            Node.js, and MongoDB, enabling me to contribute significantly to a wide range of projects.</p>
+        </section>
+
+        <section id="projects" class="projects">
+          <h2>Projects</h2>
+          <p>All the projects done here in the course, despite the simple design, were my own creations, including the
+            texts. In each project, I did more than what was asked.</p>
+          <div class="projects-list">
+            <article class="project-tile">
+              <h3>Survey Form</h3>
+              <figure class="image">
+                <div class="img-container">
+                  <img src="./images/surveyform.png" alt="Screenshot of Survey Form">
+                </div>
+                <figcaption>Complete form with various fields and options.</figcaption>
+              </figure>
+              <p>
+                <a href="https://github.com/ivad8080/" id="profile-link" target="_blank">#surveyform</a>
+              </p>
+            </article>
+            <article class="project-tile">
+              <h3>Tribute Page</h3>
+              <figure class="image">
+                <div class="img-container">
+                  <img src="./images/tribute.png" alt="Screenshot of Tribute Page">
+                </div>
+                <figcaption>Fictitious tribute page to Dr. Norman Borlaug</figcaption>
+              </figure>
+              <p>
+                <a href="https://github.com/ivad8080/" id="profile-link" target="_blank">#tributepage</a>
+              </p>
+            </article>
+            <article class="project-tile">
+              <h3>Technical Documentation Page</h3>
+              <figure class="image">
+                <div class="img-container">
+                  <img src="./images/documentationpage.png" alt="Screenshot of Survey Form">
+                </div>
+                <figcaption>Documentation for a fictional API</figcaption>
+              </figure>
+              <p>
+                <a href="https://github.com/ivad8080/" id="profile-link" target="_blank">#documentationapi</a>
+              </p>
+            </article>
+            <article class="project-tile">
+              <h3>Landing Page</h3>
+              <figure class="image">
+                <div class="img-container">
+                  <img src="./images/landingpage.png" alt="Screenshot of Landing Page">
+                </div>
+                <figcaption>Page for a fictitious product</figcaption>
+              </figure>
+              <p>
+                <a href="https://github.com/ivad8080/" id="profile-link" target="_blank">#landingpage</a>
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="contact">
+          <h2>Contact</h2>
+          <p>Feel free to contact me and ask any questions you want.</p>
+          <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+            <fieldset class="personal-info">
+              <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </p>
+              <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </p>
+              <p>
+                <label for="availability">Availability</label>
+                <select id="availability" name="availability" title="Availability">
+                  <option value="morning">Morning</option>
+                  <option value="afternoon">Afternoon</option>
+                  <option value="evening">Evening</option>
+                </select>
+              </p>
+              <p>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+              </p>
+            </fieldset>
+            <input type="submit" id="submit" value="Submit">
+          </form>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <section>
+          <p>&copy; 2022 Portfolio. All rights reserved.</p>
+          <nav aria-label="Footer Navigation">
+            <ul>
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
+              <li><a href="/terms-of-use">Terms of Use</a></li>
+            </ul>
+          </nav>
+        </section>
+        <address>
+          <p>Created by <a href="https://www.linkedin.com/in/davisas/" rel="noopener noreferrer" target="_blank">Davi
+              SAS</a></p>
+          <p>123 Me Street, Silicon Valley, CA 94043</p>
+          <p>Email: <a href="mailto:contact@portfolio.com">contact@portfolio.com</a></p>
+        </address>
+      </footer>
+
+    </div>
+  </div>
+</body>
+
+</html>
